@@ -58,17 +58,17 @@
 				<string>#798188</string>
 			</dict>
 		</dict>
-	        <dict>
+		<dict>
 			<key>name</key>
-			<string>Python Docstring</string>
+			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>string.quoted.double.block.python</string>
+			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#798188</string>
+				<string>#72aaca</string>
 			</dict>
 		</dict>
 		<dict>
@@ -97,22 +97,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Keyword</string>
+			<string>Storage, Keyword</string>
 			<key>scope</key>
-			<string>keyword</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#fa9a4b</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Storage</string>
-			<key>scope</key>
-			<string>storage</string>
+			<string>keyword, storage, storage.type, entity.name.tag.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -169,6 +156,17 @@
 				<string>#D8290DBF</string>
 				<key>foreground</key>
 				<string>#F8F8F8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Embedded Source (PHP)</string>
+			<key>scope</key>
+			<string>source.php</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#26292C</string>
 			</dict>
 		</dict>
 		<dict>
